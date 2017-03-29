@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185D0E791E895F7100D43691 /* FiboCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D0E781E895F7100D43691 /* FiboCell.swift */; };
+		185D0E7B1E89602700D43691 /* FibonacciEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D0E7A1E89602700D43691 /* FibonacciEntry.swift */; };
 		18784A121E861EAB007D41EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18784A111E861EAB007D41EE /* AppDelegate.swift */; };
 		18784A141E861EAB007D41EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18784A131E861EAB007D41EE /* ViewController.swift */; };
 		18784A171E861EAC007D41EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18784A151E861EAC007D41EE /* Main.storyboard */; };
 		18784A191E861EAC007D41EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18784A181E861EAC007D41EE /* Assets.xcassets */; };
 		18784A1C1E861EAC007D41EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18784A1A1E861EAC007D41EE /* LaunchScreen.storyboard */; };
+		18784A241E864D56007D41EE /* FiboViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18784A231E864D56007D41EE /* FiboViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		185D0E781E895F7100D43691 /* FiboCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiboCell.swift; sourceTree = "<group>"; };
+		185D0E7A1E89602700D43691 /* FibonacciEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciEntry.swift; sourceTree = "<group>"; };
 		18784A0E1E861EAB007D41EE /* MultiThreadsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiThreadsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18784A111E861EAB007D41EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18784A131E861EAB007D41EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		18784A181E861EAC007D41EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18784A1B1E861EAC007D41EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18784A1D1E861EAC007D41EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18784A231E864D56007D41EE /* FiboViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiboViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				18784A111E861EAB007D41EE /* AppDelegate.swift */,
 				18784A131E861EAB007D41EE /* ViewController.swift */,
 				18784A151E861EAC007D41EE /* Main.storyboard */,
+				185D0E781E895F7100D43691 /* FiboCell.swift */,
+				185D0E7A1E89602700D43691 /* FibonacciEntry.swift */,
+				18784A231E864D56007D41EE /* FiboViewController.swift */,
 				18784A181E861EAC007D41EE /* Assets.xcassets */,
 				18784A1A1E861EAC007D41EE /* LaunchScreen.storyboard */,
 				18784A1D1E861EAC007D41EE /* Info.plist */,
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18784A141E861EAB007D41EE /* ViewController.swift in Sources */,
+				185D0E791E895F7100D43691 /* FiboCell.swift in Sources */,
 				18784A121E861EAB007D41EE /* AppDelegate.swift in Sources */,
+				185D0E7B1E89602700D43691 /* FibonacciEntry.swift in Sources */,
+				18784A241E864D56007D41EE /* FiboViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +312,7 @@
 				18784A221E861EAC007D41EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
